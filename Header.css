@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.global-text {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.global-text .g-letter {
+  color: #ffaa00;
+}
+
+.global-text .remaining-letters {
+  color: #ffe55e;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #007bff;
+}
+
+.nav-item a.active-link {
+  color: #ffaa00; /* Active color for Home */
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.sign-in-button,
+.register-button {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.sign-in-button:hover,
+.register-button:hover {
+  color: #ffaa00; /* Change color on hover */
+}
